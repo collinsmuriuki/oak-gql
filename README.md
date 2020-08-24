@@ -8,12 +8,14 @@
   </a>
 </p>
 
-> oak graphql server
+> [Oak](https://deno.land/x/oak@v6.0.2) graphql server
+>
+> Requires [Deno](https://deno.land/)
 
 ## Install
 
 ```sh
-deno install
+deno install --allow-read --allow-run --allow-write --allow-net -f -q --unstable https://deno.land/x/denon@2.3.2/denon.ts
 ```
 
 ## Usage
